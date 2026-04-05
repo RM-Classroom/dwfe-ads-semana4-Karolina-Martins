@@ -1,18 +1,21 @@
 body{
     margin: 0;
-    background-color: rgb(209, 209, 209);
+    background-image: url(/public/imgs/fundo-site2.jpg);
+    background-size: cover;
+    background-position: top;
 }
 
 header {
-    background-color: rgb(100, 100, 100);
     padding: 10px;
 }
 
 nav{
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #e2b326;
 }
 
 nav ul{
@@ -23,11 +26,17 @@ nav ul{
     margin: 0;
 }
 
+nav ul li a {
+    color: #f4ecd8; 
+    text-decoration: none; 
+    font-family: serif;
+    font-size: 16px;
+}
+
 nav img{
     margin-right: 5px;
     width: 25px;
-    height: 25px;
-    
+    height: 25px; 
 }
 
 .menu-direito{
@@ -36,15 +45,37 @@ nav img{
     gap: 8px;
     margin-left: auto;
 }
- 
 
+.menu-direito input{
+    background-color: #222;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 3px;
+}
+
+.menu-direito a {
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+}
+ 
 main{
     padding: 20px;
 }
 
-h1{
+.titulo {
+    margin: 0 auto;
+    display: block;          
+    padding-top: 20px;       
+    margin-bottom: 10px;     
     text-align: center;
-    margin-bottom: 30px;
+}
+
+.titulo img {
+    width: 600px;           
+    height: auto;
+    margin: 0 auto;          
+    display: block;
 }
 
 .cards{
@@ -61,6 +92,8 @@ h1{
 article{
     width: 22%;
     margin: 1%;
+    color: rgb(255, 255, 255); 
+    font-size:15px;
 }
 
 article img{
@@ -69,22 +102,40 @@ article img{
 }
 
 .profeta-diario{
-    flex: 1;
     width: 350px;
-    align-self: flex-start;
-    background-color: #f4ecd8;
-    padding: 20px;
-    border-radius: 8px;
+    height: 500px;
+    padding-top: 140px; 
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+    background-image: url(/public/imgs/profeta_diario.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin-top: 200px;
-    position: relative;
-    top: 10px;
 }
 
-.profeta-diario h2{
-    text-align: center;
+.profeta-diario p{
+    color: #2b2b2b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    text-align: justify;
+    margin: 0;
+}
+
+.profeta-diario p:last-of-type {
+    margin-top: 60px; 
+    font-size: 12px;
 }
 
 .profeta-diario input{
     width: 100%;
-    margin-top: 10px;
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }

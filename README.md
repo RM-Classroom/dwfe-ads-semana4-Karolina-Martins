@@ -9,9 +9,9 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 ## Informações Gerais
 
 - Nome: Karolina Carvalho Soares Martins
-- Matricula: 
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Matricula: 916874
+- Proposta de projeto escolhida: Site temático sobre Harry Potter 
+- Breve descrição sobre seu projeto: 
 
 
 ## Print do(s) wireframe(s) criado
