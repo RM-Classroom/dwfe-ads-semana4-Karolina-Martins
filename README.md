@@ -27,4 +27,4 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 <<  COLOQUE A IMAGEM AQUI >>
 
-![Alt text]()
+![Alt text](/public/imgs/print-homepage.png)
