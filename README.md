@@ -11,7 +11,7 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 - Nome: Karolina Carvalho Soares Martins
 - Matricula: 916874
 - Proposta de projeto escolhida: Site temático sobre Harry Potter 
-- Breve descrição sobre seu projeto: 
+- Breve descrição sobre seu projeto: Um site inspirado no universo de Harry Potter, com interações que vão desde seção de filmes, personagens, casas de Hogwarts e feitiços mais famosos, até o mundo mágico (locais importantes) e quizzes interativos.
 
 
 ## Print do(s) wireframe(s) criado
@@ -19,8 +19,12 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 <<  COLOQUE A IMAGEM AQUI >>
 
+![Alt text](/public/imgs/wireframe_hp.jpeg)
+
 
 
 ## Print da home-page criada
 
 <<  COLOQUE A IMAGEM AQUI >>
+
+![Alt text]()

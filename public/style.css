@@ -49,12 +49,12 @@ nav img{
 .menu-direito input{
     background-color: #222;
     color: white;
-    border: 1px solid #ccc;
+    border: 1px solid #222;
     padding: 3px;
 }
 
 .menu-direito a {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 4px;
     text-decoration: none;
 }
@@ -104,7 +104,7 @@ article img{
 .profeta-diario{
     width: 350px;
     height: 500px;
-    padding-top: 140px; 
+    padding-top: 120px; 
     padding-left: 35px;
     padding-right: 35px;
     padding-bottom: 30px;
@@ -115,22 +115,39 @@ article img{
     margin-top: 200px;
 }
 
+.profeta-diario h3 {
+    color: #2b2b2b;
+    font-family: Georgia, serif;
+    font-size: 20px;       
+    text-align: center;   
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
 .profeta-diario p{
     color: #2b2b2b;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
+    font-size: 14px;
+    margin-bottom: 10px;
     text-align: justify;
     margin: 0;
 }
-
+ 
 .profeta-diario p:last-of-type {
-    margin-top: 60px; 
-    font-size: 12px;
+    margin-top: 30px; 
+    font-size: 13px;
+    text-align: left;
 }
+
 
 .profeta-diario input{
     width: 100%;
     margin-top: 5px;
+    border: 1px solid #3e2723;
+    background-color: rgba(255, 255, 255, 0.24);
+    border-radius: 4px;
+    padding: 5px;
+    font-style: italic;
 }
 
 footer{
