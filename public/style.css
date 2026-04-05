@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: rgb(209, 209, 209);
+}
+
+header {
+    background-color: rgb(100, 100, 100);
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav img{
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    
+}
+
+.menu-direito{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+}
+ 
+
+main{
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+
+.filmes{
+    flex: 3;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width: 22%;
+    margin: 1%;
+}
+
+article img{
+    width: 100%;
+    height: auto;
+}
+
+.profeta-diario{
+    flex: 1;
+    width: 350px;
+    align-self: flex-start;
+    background-color: #f4ecd8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 200px;
+    position: relative;
+    top: 10px;
+}
+
+.profeta-diario h2{
+    text-align: center;
+}
+
+.profeta-diario input{
+    width: 100%;
+    margin-top: 10px;
+}
